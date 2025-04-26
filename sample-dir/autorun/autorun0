@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "=== Starting autorun0 ===" > /var/log/autorun0.log
+date >> /var/log/autorun0.log
+ip a >> /var/log/autorun0.log
+ipmitool lan print 1 >> /var/log/autorun0.log 2>&1
+echo "=== Done ===" >> /var/log/autorun0.log
+

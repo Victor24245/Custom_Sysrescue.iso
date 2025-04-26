@@ -1,0 +1,27 @@
+---
+global:
+    copytoram: false
+    checksum: false
+    loadsrm: false
+    dostartx: false
+    dovnc: false
+    noautologin: false
+    nofirewall: false
+
+autorun:
+    ar_disable: false
+    ar_nowait: true
+    ar_nodel: false
+    ar_attempts: 1
+    ar_ignorefail: false
+    ar_suffixes: "0"
+
+sysconfig:
+    bash_history:
+        100: "setkmap"
+
+network:
+    enable: true
+    dhcp: true
+
+
